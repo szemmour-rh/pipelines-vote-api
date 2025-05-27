@@ -5,5 +5,5 @@ resources:
   - service.yaml
 
 images:
-  - name: myregistry.io/myapp
+  - name: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/pipelines-vote-api
     newTag: v0
